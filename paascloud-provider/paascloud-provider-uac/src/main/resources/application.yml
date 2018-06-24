@@ -1,0 +1,9 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: @pom.artifactId@
+  datasource:
+    username: root
+    password: 123456

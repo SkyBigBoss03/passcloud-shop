@@ -1,0 +1,11 @@
+server:
+  port: 8020
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: @pom.artifactId@
+  datasource:
+    username: root
+    password: 123456

@@ -1,0 +1,12 @@
+server:
+  port: 7979
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: @pom.artifactId@
+
+swagger:
+  title: @pom.artifactId@
+  description: @pom.description@
